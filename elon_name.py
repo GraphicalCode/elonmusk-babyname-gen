@@ -6,8 +6,8 @@ from tkinter import *
 
 class MyWindow:
     def __init__(self, win):
-        self.s = open("unicode.txt")
-        self.p = open("plane.txt")
+        self.s = open("unicode.txt", encoding="utf-8")
+        self.p = open("plane.txt", encoding="utf-8")
         self.schar, self.model = self.random_name(self.s, self.p)
 
 
